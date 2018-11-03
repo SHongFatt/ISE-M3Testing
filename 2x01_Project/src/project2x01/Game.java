@@ -2,34 +2,37 @@ package project2x01;
 
 public class Game {
 	int score;
-	Enviorement gameEvviornment;
+	Enviornment Environment;
 	
 	public int selectLevel() {
 		return 1;
 	}
-	public Enviorement setEnvioroment(){
-		return gameEvviornment = new Enviorement();
-		
-		
+	public Enviornment setEnvioroment(){
+		return Environment;
 	}	
 	public void startGame() {
-		setEnvioroment();
+		//select level and PMD 
+			//different levels and PMD
+		//follow level will initialize different environment 
+	}
+	public void generateFeedback(int speed) {
+		//speed more than 10 
+		//print wrong
+	}
+	public boolean confirmSelection(boolean x) {
+		return true;
 		
 	}
-	public void generateFeedback() {
-		
-	}
-	public boolean confirmSelection(String confirmation) {
-		if(confirmation)
-		
-	}
-	public int generateScore() {
-		
-		return score;
-		
+
+	public String check() {
+		for(int i =0 ; i < 10;i++) {
+			
+		}
+		return "";
 	}
 	public void endGame() {
 		
 	}
+
 	
 }

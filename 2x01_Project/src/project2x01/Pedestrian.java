@@ -10,7 +10,6 @@ public class Pedestrian {
 	ArrayList<String[]> myList = new ArrayList<String[]>();
 	
 	public Pedestrian() {
-		myList.add("a");
 	}
 	public void setType() {
 		
